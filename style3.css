@@ -1,0 +1,80 @@
+:root {
+    --heading-font: "Marcellus", Roboto, sans-serif;
+    --heading-font-weight: 400;
+    --heading-color: #111;
+    --heading-line-height: 1.24;
+
+    --font-family: "Jost", Roboto, sans-serif;
+    --font-size: 18px;
+    --font-weight: 400;
+    --line-height: 1.5;
+
+    --primary: #f3f3f3;
+    --secondary: #6c757d;
+    --black: #111;
+    --light: #F1F1F0;
+    --dark: #212529;
+    --gray: #9aa1a7;
+    --gray-dark: #51565b;
+
+    --link-color: #111;
+    --link-decoration: underline;
+    --link-hover-color: #111;
+}
+
+body {
+    font-family: var(--font-family);
+    background-color: var(--primary);
+    font-size: var(--font-size);
+    font-weight: var(--font-weight);
+    line-height: var(--line-height);
+    margin: 0px;
+}
+
+nav {
+    background-color: var(--dark);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 50px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    cursor: pointer;
+}
+
+/* Sidebar styles */
+.sidebar {
+    width: 20%;
+    background: #f4f4f4;
+    padding: 15px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+main {
+    width: 80%;
+    margin: 20px auto;
+}
